@@ -143,7 +143,7 @@ interface Subscription {
   unsubscribe(): void;
 }
 
-const handleRequest = (request: any) : RequestStatus => {
+const handleRequest = (request: MockRequest) : RequestStatus => {
   // handling of request
   return {status: HTTP_STATUS_OK};
 };
